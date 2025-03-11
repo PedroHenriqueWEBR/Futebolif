@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #a7c957;
+}
+
+header .container{
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6a994e;
+}
+
+
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes button{
+    padding: 10px;
+    background-color: rgb(206, 164, 57);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.botoes button:hover{
+    background-color: #ffff;
+}
+
+main{
+    margin-top: 2%;
+    display: flex;
+    padding: 0 1%;
+    margin-bottom: 2%;
+   
+}
+
+.gol{
+    width: 50%;
+
+}
+
+
+.gol img{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.gol img:hover{
+
+    box-shadow: rgba(192, 184, 65, 0.993) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.text{
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.text h1{
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text p{
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+footer{
+    
+    display: flex ;
+    justify-content: space-between;
+    padding: 2% 5%;
+    font-family: sans-serif;
+    background-color: rgb(206, 164, 57);
+}
+
+.redes h3{
+    text-transform:uppercase ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redes img{
+    width: 20px;
+    height: 20px;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista li{
+    text-transform: capitalize;
+}
+
+.lista h3{
+    text-transform:uppercase ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.div{
+    border: solid;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Cards{
+  
+    width: 200px;
+}
+
+.Cards img{
+    border-radius: 10px;
+}
+
+.Cards p{
+    font-size: 20px;
+    
+}
+
+
+
