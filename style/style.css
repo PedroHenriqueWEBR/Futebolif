@@ -151,8 +151,59 @@ footer{
 }
 
 .Cards p{
-    font-size: 20px;
+    font-size: 20px
     
+}
+
+.menu img{
+    width: 35PX;
+}
+
+.menu{
+    display: none;
+}
+
+
+@media(max-width:390px){ /* esse cara ajusta a tela para o meu celular*/
+    header .container{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+    }
+
+    .nav{
+        display: none;
+
+    }
+    .botoes{
+        display: none;
+    }
+
+    /*main banner*/
+
+    main{
+        flex-direction: column;
+    }
+
+    .gol{
+       width: 390px             ; 
+    }
+    .gol img{
+        width: 200px;
+        height: 200px;
+    }
+
+    text h1{
+        font-size: 0.7rem;
+    }
+
+    /*cards*/
+
+    .div{
+        flex-direction: column;
+    }
+
 }
 
 
