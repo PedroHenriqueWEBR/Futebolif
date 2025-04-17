@@ -135,75 +135,76 @@ footer{
 
 
 .div{
-    border: solid;
+    text-align: justify;
     padding-left: 10px;
     display: flex;
     justify-content: space-around;
 }
 
 .Cards{
-  
+    font-family: sans-serif;
     width: 200px;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .Cards img{
     border-radius: 10px;
+    width: 100%;
+    height: 200px;
 }
 
 .Cards p{
-    font-size: 20px
+    font-size: 20px;
     
 }
 
-.menu img{
-    width: 35PX;
+section{
+    margin:2%;
 }
-
-.menu{
+.menu {
     display: none;
 }
 
+/*RESPONSIVIDADE*/
 
-@media(max-width:390px){ /* esse cara ajusta a tela para o meu celular*/
-    header .container{
-        width: 100%;
-    }
-    .menu{
-        display: block;
+@media( max-width: 995px) {
+    .container .nav {
+       position: fixed; 
+       width: 100%; 
+       left: 100%;
+       top: 0;
+       height: 100%;
+       background-color: rgb(206, 164, 57) ;
+       color: black;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       transition: 0.4s;
+       font-size: 35px;
+    } 
+    .menu {
+
+    display: block;
+    z-index: 2;
     }
 
-    .nav{
-        display: none;
-
+    .nav.ativo{
+        left: 0;
     }
+
+
+}
+
+@media ( max-width:609px) {
     .botoes{
         display: none;
     }
-
-    /*main banner*/
-
-    main{
-        flex-direction: column;
-    }
-
-    .gol{
-       width: 390px             ; 
-    }
-    .gol img{
-        width: 200px;
-        height: 200px;
-    }
-
-    text h1{
-        font-size: 0.7rem;
-    }
-
-    /*cards*/
-
-    .div{
-        flex-direction: column;
-    }
-
 }
 
 
